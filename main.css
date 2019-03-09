@@ -1,0 +1,23 @@
+#cssmenu{
+    float: left;
+}
+
+#main{
+    background-color:#dddddd;
+}
+
+.vsep{
+    
+        float: left;
+        display:block;
+        padding: 8px;
+        background-color: #dddddd;
+        
+    }
+.vsep>a>img
+    {
+        width: 140px;
+        height: 225px;
+        object-fit:contain;
+    }
+
