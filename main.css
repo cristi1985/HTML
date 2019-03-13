@@ -1,7 +1,17 @@
 #cssmenu{
     background-color: white;
+    padding-top: 10px;
 }
 
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title>img{
+    max-height: 70%;
+    max-width: 70%;;
+    padding-left: 15%
+}
 
 
 
@@ -13,13 +23,21 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: none;
     cursor: pointer;
-    text-decoration: none;
+    text-decoration: none;    
   }
+
+.dropbtn>a{
+    text-decoration: none;
+    color: black;
+}
+
 
 .dropdown{
     position: relative;
     display: inline-block;
 }
+
+
 .dropdown-content{
     display: none;
     position: absolute;
@@ -46,10 +64,16 @@
 
 #main{
     background-color:white; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main>h1{
+    font-size-adjust:0.58;
 }
 
 .main body{
     background-color: white;
+    
 }
 
 .carousel-active{
