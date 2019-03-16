@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <head>
 	<title>The Book Store</title>
-    <link rel="stylesheet" href="styles_menu.css">
+    <link rel="stylesheet" href="../main.css">
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <!--<script src="script.js"></script>-->
 </head>
 <body>
 <div class="title">
-<img src ="../Pictures/BookLogo.jpg"></img>
-<h1>Science books</h1>
+<img src ="../Pictures/Logo.png"></img>
+<h1>Science books discounts</h1>
 </div>
 <div class="search">
 	<form action="main.html/search.php">
@@ -17,23 +17,28 @@
 	</form>
 </div>
 <div id='cssmenu'>
-    <ul>
-        <li class='active'><a href='../index.html'><span>Home</span></a></li>
-        <li class='prod'><a href='#'><span>Products</span></a></li>
-            <ul>
-            <li><a href='../Products/Fiction.html'><span>Fiction</span></a></li>
-            <li><a href="../Products/Adventure.html"><span>Adventure</span></a></li>
-            <li><a href="../Products/Children.html"><span>Children's books</span></a></li>
-            <li><a href="../Products/Science.html"><span>Science</span></a></li>
-            <li><a href="../Products/Technology.html"><span>Tehnology</span></a></li>
-            </ul>
-        <li class='disc>'><a href='Discounts\Discounts.html'><span>Discounts</span></a></li>
-            <ul>
-                <li><a href="Fiction.html"><span>Fiction discount</span></a></li>
-                <li><a href="Adventure.html"><span>Adventure discount</span></a></li>
-                <li><a href="Children.html"><span>Children discount</span></a></li>
-                <li><a href="Science.html"><span>Science discount</span></a></li>
-                <li><a href="Tehnology.html"><span>Tehnology discount</span></a></li>
-            </ul>
-    </ul>	
+        <div class="dropdown">
+                <button class='dropbtn'><a href='../index.html'>Home</a></button>
+        </div>        
+        <div class="dropdown">             
+            <button class='dropbtn'>Products</button>
+            <div class="dropdown-content">            
+                <a href='../Products/Fiction.html'>Fiction</a>
+                <a href="../Products/Adventure.html">Adventure</a>
+                <a href="../Products/Children.html">Children's books</a>
+                <a href="../Products/Science.html">Science</a>
+                <a href="../Products/Technology.html">Tehnology</a>            
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class='dropbtn'>Discounts</button>
+            <div class="dropdown-content">                
+                <a href="Fiction.html">Fiction discount</a>
+                <a href="Adventure.html">Adventure discount</a>
+                <a href="Children.html">Children discount</a>
+                <a href="Science.html">Science discount</a>
+                <a href="Technology.html">Tehnology discount</a>
+            </div>
+        </div>
     
+</div>
